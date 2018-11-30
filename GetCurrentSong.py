@@ -1,6 +1,6 @@
 import spotipy
 
-user_authenticate = 'BQCYooPwEetY1BsP2P2QpJn6tI5NC3hZVvZ5ZIzpOgQmRrnvI3lmK9oZB1xDfleddyX8Y-W4KNwqtZGJYorvfnSMVP-aVy3S-28O4A2LHPvIEvG90zJGaowwINDr1qfiIoScz4U6CQBmeQRXuj65FmoWWGTH'
+user_authenticate = 'BQDykfvOWIECieX_GY6ho-ZNyoslld0UYXMs4ETuHREqPQKfHN7sPOfDPwk4Rx3JUjBhj778CVYgliTPaRzhARpXVsbRlj5hSjHXItsYErVOZqADZicYTSKbRW9y-FDSqJegwsQIsz7E_4p4DpDXb293DQF1PYezjC_4iZHC8dMv46MNp1b1oYq5T7Lq5KoVhB-s'
 spotify = spotipy.Spotify(auth=user_authenticate)
 
 results = spotify.current_user_top_tracks()

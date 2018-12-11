@@ -4,8 +4,8 @@ import requests
 
 userId = 'maskless'
 scope = 'user-top-read playlist-modify-private playlist-read-private'
-clientId = '75e135b231a2410ca5b9d3bb366102c1'
-clientSecret = '8c2749ec5d8f45f6b0f2fc4a8f1e7cd3'
+clientId = ''
+clientSecret = ''
 redirectUri = 'http://example.com/callback/'
 
 playlistId = "6kGTJE6T32rSzjbHeXQ7ez"

@@ -39,10 +39,10 @@ def RequestAuthorization():
 def RequestRefreshTokens():
     url = "https://accounts.spotify.com/api/token"
     data = {
-        'client_id': '75e135b231a2410ca5b9d3bb366102c1',
-        'client_secret': '8c2749ec5d8f45f6b0f2fc4a8f1e7cd3',
+        'client_id': '',
+        'client_secret': '',
         'grant_type': 'authorization_code',
-        'code': 'AQARjLkW0wsO6KtlhsJ_sg43QtdHUxf1VvdLgydUjMbm06mjU-Ijs3aJWekEgU0N8MmiUV3mYx_2vqWu3f44nFhIvnf6ymVDQnq0y8ONilIoDOmb5mfxPpz4Op28ZWjqmEOoRqjAdTzEjHso7COe-gGcdpIe7uw-NSMxLy8dPc8XYFZSgniUF1E-g8jrItAd1a6VsR1B4Y8IF2gvaV8N4KR8gq4ymmVRtb1G6FTkRrJtsAnOllKSkY08i_qMxJUAbzH4K9serHZjrV138nAXdNStqg',
+        'code': '',
         'redirect_uri': 'https%3A%2F%2Fexample.com%2Fcallback'
     }
     r = requests.post(url, data=data)
@@ -52,7 +52,7 @@ def RequestRefreshTokens():
 
 
 #
-# user_authenticate = 'BQDykfvOWIECieX_GY6ho-ZNyoslld0UYXMs4ETuHREqPQKfHN7sPOfDPwk4Rx3JUjBhj778CVYgliTPaRzhARpXVsbRlj5hSjHXItsYErVOZqADZicYTSKbRW9y-FDSqJegwsQIsz7E_4p4DpDXb293DQF1PYezjC_4iZHC8dMv46MNp1b1oYq5T7Lq5KoVhB-s'
+# user_authenticate = ''
 # spotify = spotipy.Spotify(auth=user_authenticate)
 #
 # def GetCurrentTracksInPlaylist():
